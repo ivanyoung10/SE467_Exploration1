@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
+/* AI Assist: This file defines global design tokens and base element styles for OSU branding consistency. */
+
+/* AI Assist: These root variables centralize OSU brand colors so components can reuse a single source of truth. */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
+  --osu-orange: #d73f09;
+  --osu-teal: #00859b;
+  --osu-blue: #006a8e;
+  --osu-green: #4a773c;
+  --osu-yellow: #ffb500;
+  --osu-gray: #8e9089;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* AI Assist: Base body styles enforce brand-required background, text color, and primary typeface. */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* AI Assist: Heading styles apply the required serif accent for high-level titles only. */
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* AI Assist: Global controls and links are standardized for accessibility and OSU brand compliance. */
+button,
+input,
+textarea,
+select {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+}
+
+a {
+  color: var(--osu-orange);
+  text-decoration: underline;
 }

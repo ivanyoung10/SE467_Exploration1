@@ -13,9 +13,9 @@ Conversation rules:
 
 Anytime code is added or modified, ensure that it adheres to the following guidelines:
  - A comment should be added above any segment of code added or modified that explains how the code works and if there are any design decisions that were made. This will help the student understand the code and the reasoning behind it.
- - Use a tag "AI Assist:" in the comments to indicate that the code was added or modified with help from AI. This will help the student identify which parts of the code were influenced by AI and can serve as a learning opportunity to understand how AI can assist in coding.
  - Every function should have a comment above it that explains what the function does, its parameters, and its return value. This will help the student understand the purpose of the function and how to use it effectively.
  - Every file should have a comment at the top that explains the purpose of the file and any important information about its contents. This will help the student understand the overall structure of the project and how different files relate to each other.
  - Follow consistent coding style and conventions throughout the codebase, such as naming conventions, indentation, and formatting. This will help the student understand the importance of writing clean and consistent code, and make it easier for them to read and maintain their code in the future.
+ - For user interface behavior implementation and styling, refer to documentation in the /doc directory for design guidelines, application purpose, customer feedback and branding best practices. This will help the student understand the importance of following design guidelines and best practices when implementing user interfaces, and ensure that their code is consistent with the overall design of the project. 
  
   
