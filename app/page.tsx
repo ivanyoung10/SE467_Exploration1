@@ -15,7 +15,7 @@ export default function Home() {
         style={{ height: "auto" }}
         priority
       />
-      <h3 className="text-4xl font-bold mt-4">Hello from youngiv, deployed using github actions!</h3>
+      <h3 className="text-4xl font-bold mt-4">Hello from youngiv, deployed using github actions!!</h3>
     </div>
   );
 }
