@@ -43,7 +43,7 @@ jobs:
         id: cf_vars
         run: |
           # Define your CloudFormation stack name here
-          STACK_NAME="exploration2-stack"
+          STACK_NAME="exploration2"
           # Generate a unique name for the change set using GitHub context
           CHANGESET_NAME="changeset-${{ github.run_id }}-${{ github.sha }}"
           # Set environment variables for use in subsequent steps
